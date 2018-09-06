@@ -1,0 +1,128 @@
+<!DOCTYPE html> <html lang="en"> <head> <title>CSS Template</title> <meta
+charset="utf-8"> <meta name="viewport" content="width=device-width,
+initial-scale=1">
+<style> * { box-sizing: border-box; }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+ /* Style the header */
+  article{float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #f1f1f1;
+          height: auto;
+          text-aligh:center;
+  }
+
+  header {
+      font-family:"Comic Sans MS", cursive, sans-serif;
+      background-color: Green;
+      padding: 10px;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+  }
+
+  /* Create two columns/boxes that floats next to each other */
+ ul {
+      float: left;
+      width: 30%;
+      height: 1000px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+  }
+
+  /* Style the list inside the menu */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    width: ;
+    background-color: #ccc;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Style the footer */
+  footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+ @media (max-width: 600px) {
+      ul, article {
+          width: 100%;
+          height: auto;
+      }
+body {background-color:#e6ffe6}
+table, th, td
+{   float:right;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding:15px;
+    text-align: left;
+}
+
+h1 {background-color: green}
+
+}
+div{border:dashed green }
+
+</style>
+</head>
+
+<body>
+    <header>
+    <h2> Engineering Academy Programme<br><sub>Team Eclipse</sub> </h2>
+  </header>
+
+  <section>
+    <ul>
+  <li><a href="#Resources">Resources</a></li>
+  <li><a href="#blog.html">Blog</a></li>
+  <li><a href="#review.html">Review</a></li>
+  <li><a href="#team.html">team</a></li>
+</ul>
+
+  <article>
+<div ><img src="Vincent.jpg" width="250px" length="350px" >
+<table border="2" ><tr><th>Name:</th><td>Vincent</td></tr>
+<tr><th>Mail:</th><td>hyzvincent01.18@ichat.sp.edu.sg</td></tr>
+<tr><th>Admin.no</th><td>4762</td></tr></table></div>
+
+<div><img src="Sorenson.jpg" width="250px" length="350px">
+<table border="2"><tr><th>Name:</th><td>Sorenson</td></tr>
+<tr><th>Mail:</th><td>sorensonang25.18@ichat.sp.edu.sg</td></tr>
+<tr><th>Admin.no</th><td>9750</td></tr></table></div>
+
+<div><img src="caiyanru.jpg" width="250px" length="350px" float:left>
+<table border="2"><tr><th>Name:</th><td>Caiyanru.</td></tr>
+<tr><th>Mail:</th><td>ccyy18.18@ichat.sp.edu.sg</td></tr>
+<tr><th>Admin.no</th><td>0522</td></tr></table></div>
+</article>
+</section>
+<footer>
+<p></p>
+ </footer>
+
+
+
+</body>
+</html>
+    
