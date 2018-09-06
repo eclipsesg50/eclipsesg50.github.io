@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en"> <head> <title>CSS Template</title> <meta
+<!DOCTYPE html> <html lang="en"> <head> <title>EA Website</title> <meta
 charset="utf-8"> <meta name="viewport" content="width=device-width,
 initial-scale=1">
 <style> * { box-sizing: border-box; }
@@ -95,14 +95,14 @@ li a:hover {
       Then we build a prototype without any glue. After that, we decided to stick to the idea and glue the bridge together.
       Although our bridge can only load 5 hammers, it is still an achievement as we actually did not expect it to be that strong.
       we should be able to improve on the design by using more ice cream sticks to reinforce it. </p>
-      <img src="WhatsApp Image" width="640px">
+      <img src="image/groupphoto.jpg" width="640px">
       <h2> build website </h2>
       <p> After the bridge building activity, we were taught how to create a website using HTML,and we were tasked to build our own website as a team and document everything we have achieved so far.This is a good way of reviewing about what we have learnt and improve ourselves.Evenmore we check out each of us's work sa as to catch after one another.</p>
       <h2> make airplane </h2>
       <p> After lunch, we were tasked to design a paper messaging system. Each of us came out with our own design for the system
           test it out for accauracy and distance. </p>
       <p> This is our designs. </p>
-      <img src="img/picture1.jpg" width="640px">
+      <img src="image/airplane.jpg" width="640px">
       <p>As a result,our two paper airplane failed to aim accurately as we used too much force to throw it,but the card made by Vincent did acheive distance.After this activity,the lecturer concluded that short  airplane is better choice when we aim for accuracy and long,sharp one can fly further.   </p>
       <p>To further our study, our instructor encouraged us to build a paper airplane         launcher using Arduino.After a lecture on the use of Arduino, we learnt how to control a LED through a button.That also gave us the working principal of how to control digitally.</p>
      <hr>
@@ -110,24 +110,27 @@ li a:hover {
       <h2>  motors </h2>
       <p> Firstly, we undergo a lecture on how to program motors using audrino. We then move on to practice using tinkercad, a online simulator. It is not easy as we could not get coding and the circuit wiring
                 For example, one of our task is is for the pushbutton to turn on the motor for 5 secs and then stop after the pushbutton is pressed. However, we could not accomplish that as we either get a wiring error or coding error.But at the end,with the help of the Mr. Teo,we learn from the Arduino website and refer to the example and finally rectify our error. </p>
-      <img src="motor.jpg" width="640p">
+      <img src="image/motor.jpg" width="640p">
        <h2> Fabrication of components </h2>
       <p> We came up with a design for the launcher using Autodesk Fusion 360.eWe thecomponents components using Autodesk Fusion 360. After that, we sent the drawings for la at the FabLab at T11Cser cutting. However, we realised that the diameter of the wheel is too large and we forgot to include a hole for the motor shaft. Thes, we redraw the wheels and sent the redrawn wheels for lase
   Hower ,    twe realhatethe diameter of the tolehcutc  is too small. The diameter of thespecifiedein the drawing cifed to be laser cut ismbut the diameterieerze of the motor shaft
           So, to fix this issue, at first we wanted to widen the hole by drilling through using a 2mm drill bit but we decided, with guidance from our instructors, to increase the diameter of the hole by filing using a needle file instead.
           Although it took some time, we eventually managed to widen the hole for the motor shaft to snugly fit into the hole.</p>
-        <img src="" width="640px">
+        <img src="image/drillhole.jpg" width="400px"height="400px">
+        <img src="image/lasercutting parts.jpg" width="400px" height="400px">
         <h2> Servo Motors</h2>
       <p>
         To start off, we attended a 1 hr lecture on where to find related resources and how to operate Servo Motors using adruino.
         After the lecture, we moved on to run simulations using Tinkercad. Obviously, we were not familiar on how to successfully operate Servo Motors accorrding to how we want it to operate.
-        We wated the Servo Motor to operate such that the drive Gears turns clockwise when button1 is being pressed and turns anti-clockwise when button2 is being pressed.
+        We wanted the Servo Motor to operate such that the drive Gears turns clockwise when button1 is being pressed and turns anti-clockwise when button2 is being pressed.
         The challenges we faced when running the simulation was
 
             <li>the buttons did not work</li>
             <li>the Servo motor stopped rotating after a 5 degree turn</li><br>
 
         So, we tried redoing the basic buttons example from <a href="https://www.arduino.cc/en/Tutorial/Button.">Arduino - button</a> and we found out that the problem was actually the connections of the buttons in the circuit and that we did not define the button pins.
+        The final circuit is shown below.
+        <img src="image/motor.jpg" width="400px">
         The problem of the Servo motor stopped rotating after 5 degree turn is that the angle turned is not updated, so we changed the code.
         Initially, the code was <br>servo.write(angle + 5)<br> then we changed the code to <br>servo.write(angle = angle + 5)
 
