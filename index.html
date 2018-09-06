@@ -1,0 +1,113 @@
+<!DOCTYPE html> <html lang="en"> <head> <title>CSS Template</title> <meta
+charset="utf-8"> <meta name="viewport" content="width=device-width,
+initial-scale=1">
+<style> * { box-sizing: border-box; }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the header */
+
+  header {
+      background-color:green;
+      padding: 10px;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      font-family:"Comic Sans MS", cursive, sans-serif;
+  }
+
+  /* Create two columns/boxes that floats next to each other */
+ ul {
+      float: left;
+      width: 30%;
+      height: 845px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+  }
+
+
+  /* Style the list inside the menu */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    width: ;
+    background-color: #ccc;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+  article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 854px; /* only for demonstration, should be removed */
+  }
+
+  /* Clear floats after the columns */
+  section:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Style the footer */
+  footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+     ul, article {
+          width: 100%;
+          height: auto;
+      }
+  }
+  </style>
+  </head>
+  <body>
+
+  <header>
+    <h2> Engineering Academy Programme<br><sub>Team Eclipse</sub> </h2>
+  </header>
+  <section>
+
+<nav>
+<ul>
+  <li><a href="#Resources">Resources</a></li>
+  <li><a href="#blog.html">Blog</a></li>
+  <li><a href="#review.html">Review</a></li>
+  <li><a href="#team.html">team</a></li>
+</ul>
+</nav>
+
+    <article>
+      <h1>HOMEPAGE</h1>
+      <p>Hi everyone!</p>
+      <p>This is Team Eclipse from engineering academy tryouts. Our Team consists of Vincent, Yanru and Sorenson.
+      This site is a platform for us to document what we have learnt during the tryout session, our progress and works of the project
+      for this tryout and our reviews and reflection of the tryout. </p>
+      <p> Our project is to build automated plane launcher that can launch a paper plane accurately over a long distance.
+      We will use arduino to control the launcher. We decided to select acrylic as our fabrication material. A brief overview of our design will be a launcher that uses a pair of motorised wheels to launch our plane which rests on the rails </p>
+      <p><img src="airplane.gif" style="width:400px height:50px"></p> </article>
+  </section>
+  <footer>
+  </footer>
+ </body>
+  </html>
