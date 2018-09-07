@@ -105,8 +105,8 @@ li a:hover {
       <img src="image/airplane.jpg" width="640px">
       <p>As a result,our two paper airplane failed to aim accurately as we used too much force to throw it,but the card made by Vincent did acheive distance.After this activity,the lecturer concluded that short  airplane is better choice when we aim for accuracy and long,sharp one can fly further.   </p>
       <p>To further our study, our instructor encouraged us to build a paper airplane         launcher using Arduino.After a lecture on the use of Arduino, we learnt how to control a LED through a button.That also gave us the working principal of how to control digitally.</p>
-     <hr>
-      <h1> Day 2 </h1>
+    <br> <hr>
+      <br><h1> Day 2 </h1>
       <h2>  motors </h2>
       <p> Firstly, we undergo a lecture on how to program motors using audrino. We then move on to practice using tinkercad, a online simulator. It is not easy as we could not get coding and the circuit wiring
                 For example, one of our task is is for the pushbutton to turn on the motor for 5 secs and then stop after the pushbutton is pressed. However, we could not accomplish that as we either get a wiring error or coding error.But at the end,with the help of the Mr. Teo,we learn from the Arduino website and refer to the example and finally rectify our error. </p>
@@ -129,10 +129,19 @@ li a:hover {
             <li>the Servo motor stopped rotating after a 5 degree turn</li><br>
 
         So, we tried redoing the basic buttons example from <a href="https://www.arduino.cc/en/Tutorial/Button.">Arduino - button</a> and we found out that the problem was actually the connections of the buttons in the circuit and that we did not define the button pins.
-        The final circuit is shown below.
-        <img src="image/motor.jpg" width="400px">
         The problem of the Servo motor stopped rotating after 5 degree turn is that the angle turned is not updated, so we changed the code.
         Initially, the code was <br>servo.write(angle + 5)<br> then we changed the code to <br>servo.write(angle = angle + 5)
+      <br> <hr>
+        <br><h1>Day 3</h1>
+        <h2>Launching And Testing</h2>
+      <p>
+        Firstly,we undergo a lecture on pithub and be taught how to host our website.After that, we assemble all parts of the laucher.We use hot glue to stick four ice-cream sticks at the bottom so as to balance the base.In order to change the direction of the launcher,we take the suggestion from our instructor to utilize a pulling system with the servo motor.
+        This how it looks like:
+        <img src="image/launcher.jpg" width="400px" height="400px">
+        <br>At the same time, we build the circuit based on the simulator we used on day 2,but the one big difference is that we replace the push-up button with the two-leg button.
+            To check the motor, we connect it to the power supply and it spins but also damages the rubberband.After reinforcing the rubberband,we adjust the gap between the two wheels by tightening a wire around them. The paper airplane can shoot very fast but fail to fly very far.So next we focus on the structure of the airplane.
+          <br>  <img src="image/testmotor.jpg"width="400px" height="400px">
+      </p>
 
 </article>
   </section>
